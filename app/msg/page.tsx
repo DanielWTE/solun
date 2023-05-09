@@ -112,12 +112,12 @@ function CreateMessage() {
               <h1 className="text-2xl font-bold mb-4 text-gray-100">
                 Your Message has been created
               </h1>
-              <div className="mb-4">
+              <div className="mb-4 ">
                 <input
                   type="text"
                   value={`${messageLink}`}
                   readOnly
-                  className="bg-slate-950 text-white w-full p-2 rounded-lg"
+                  className="bg-slate-950 text-white w-full p-2 rounded-lg blur-sm hover:blur-none transition duration-300"
                 />
               </div>
               <button
